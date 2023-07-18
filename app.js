@@ -9,8 +9,6 @@ const fileUpload = require('express-fileupload');
 const { v4: uuidv4 } = require('uuid');
 const port = 8000;
 
-
-
 // app.set("public", path.join(__dirname, "public"));
 app.use(express.static(__dirname + '/public'));
 app.set("views", path.join(__dirname, "views"));
