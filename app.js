@@ -32,8 +32,7 @@ const connection = mysql.createConnection({
 
 connection.connect();
 
-/*****************************  User-End Portal ***************************/
-
+/*************************  User-End Portal ***************************/
 
 
 // Rendering Index Page
