@@ -59,7 +59,7 @@ app.post("/signup", (req, res) => {
   });
 });
 
-// Rendering SignIn Page
+// Rendering SignIn Page   
 app.get("/signin", (req, res) => {
   res.render("signin");
 });
