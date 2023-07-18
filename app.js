@@ -34,6 +34,8 @@ connection.connect();
 
 /*****************************  User-End Portal ***************************/
 
+
+
 // Rendering Index Page
 app.get("/", (req, res) => {
   res.render("index");
